@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+section {
+  @apply p-10 my-5 rounded-lg shadow-lg bg-cover bg-center; /* Tailwind utility classes */
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+h1,
+h2 {
+  transition: color 0.3s ease;
+}
+
+h1:hover,
+h2:hover {
+  color: #007bff; /* Change color on hover */
+}
