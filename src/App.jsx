@@ -8,10 +8,28 @@ const App = () => {
       <Header />
       <section
         id="home"
-        className="p-4"
-        style={{ backgroundImage: "url('/path/to/home-background.jpg')" }}
+        className="p-0" // Removed padding to eliminate whitespace
+        style={{
+          backgroundImage: "url('/one.jpg')",
+          backgroundSize: "cover",
+          height: "100vh",
+          marginTop: "0", // Set margin-top to 0 to start immediately after the navbar
+          position: "relative", // Ensure it does not overlap the navbar
+          zIndex: 1, // Lower z-index for the home section
+          borderRadius: "0", // Ensure no rounded corners
+        }}
       >
-        <h1 className="text-2xl font-bold">Welcome to My Website</h1>
+        <div className="text-left  p-52">
+          <h1 className="text-5xl mb-32 font-bold text-gray-200">Hello,</h1>{" "}
+          <h1 className="text-7xl mb-11 font-bold text-orange-400">
+            I'm David Marvellous
+          </h1>{" "}
+          {/* Main name styled */}
+          <p className="text-2xl mt-4 text-white">
+            I am a Software Developer
+          </p>{" "}
+        </div>
+        {/* Subtitle styled */}
       </section>
       <section
         id="about"

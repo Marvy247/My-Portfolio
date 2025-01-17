@@ -3,7 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <header className="bg-blue-500 p-4 flex justify-between items-center sticky top-0">
-      <h1 className="text-white text-2xl">My Website</h1>
+      <h1 className="text-white text-4xl font-bold transition-transform duration-500 hover:scale-110">
+        The Dude
+      </h1>
       <nav className="ml-auto">
         <ul className="flex space-x-4">
           <li>
