@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,26 +35,4 @@ header {
 
 header:hover {
   background-color: #0056b3; /* Darker blue on hover */
-}
-
-section {
-  @apply p-10 my-5 rounded-lg shadow-lg bg-cover bg-center; /* Tailwind utility classes */
-  transition: transform 0.3s ease;
-}
-
-section:hover {
-  transform: scale(1.02); /* Slightly enlarge on hover */
-}
-
-h1,
-h2 {
-  transition: color 0.3s ease;
-}
-
-h1:hover {
-  color: #78afdb; /* Darker blue on hover */
-}
-
-h2:hover {
-  color: #f0f0eb; /* Change color on hover */
 }
