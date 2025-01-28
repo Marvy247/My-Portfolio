@@ -71,5 +71,15 @@ header {
 }
 
 a {
-  transition: transform 0.9s ease; /* Smooth transition for scaling and color change */
+  background: transparent; /* Ensure the default background is transparent */
+  transition: background-color 1s ease, color 1s ease; /* Smooth transition for background and text color */
+}
+
+a:hover {
+  background: linear-gradient(
+    to right,
+    #4f46e5,
+    #9333ea
+  ); /* Example gradient */
+  color: white; /* Ensure text color remains white */
 }
