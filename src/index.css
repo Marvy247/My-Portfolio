@@ -17,6 +17,19 @@
 }
 
 @tailwind components;
+
+.automatic-scroll {
+  animation: scroll 10s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%); /* Adjust based on content height */
+  }
+}
 @tailwind utilities;
 
 @keyframes slideDown {
