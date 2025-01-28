@@ -8,10 +8,10 @@ const HomeContent = () => {
         <p className="text-4xl uppercase tracking-widest text-gray-200 mb-16 animate-slideDown">
           Hello,
         </p>
-        <h1 className="text-8xl md:text-7xl font-bold leading-tight text-gray-200 mb-14">
+        <h1 className="text-8xl md:text-7xl font-bold leading-tight text-gray-200 mb-14 animate-slideIn">
           My Name is David Marvellous
         </h1>
-        <p className="text-3xl md:text-3xl font-bold leading-tight text-white mb-8">
+        <p className="text-3xl md:text-3xl font-bold leading-tight text-white mb-8 animate-fadeIn">
           I am a Web Developer
         </p>
         <div className="flex justify-left space-x-4">

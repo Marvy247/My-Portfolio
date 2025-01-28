@@ -27,32 +27,36 @@
   }
 }
 
-@keyframes logoAnimation {
+@keyframes slideIn {
   0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
+    transform: translateX(100%);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
   100% {
-    transform: translateY(0);
+    opacity: 1;
   }
-  40% {
-    transform: translateY(-10px);
-  }
-  60% {
-    transform: translateY(-5px);
-  }
+}
+
+.animate-slideDown {
+  animation: slideDown 5s forwards; /* Increased duration to 1s */
+}
+
+.animate-slideIn {
+  animation: slideIn 5s forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 13s forwards;
 }
 
 html {
