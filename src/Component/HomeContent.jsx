@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeContent = () => {
   return (
-    <div className="relative z-0 flex-grow flex items-center pl-36 text-left h-screen">
+    <div className="relative z-0 flex-grow flex items-center pl-48 text-left h-screen">
       <main>
         <p className="text-4xl uppercase tracking-widest text-gray-200 mb-16 animate-slideDown">
           Hello,

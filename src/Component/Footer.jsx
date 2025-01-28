@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer
-      className={`absolute right-5 top-96 mt-10 flex flex-col items-center space-y-4 ${
+      className={`fixed  right-5 top-96 mt-16 flex flex-col items-center space-y-4 ${
         fadeOut ? "fade-out" : ""
       }`}
     >
