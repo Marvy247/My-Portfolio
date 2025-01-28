@@ -16,10 +16,14 @@ const HomeContent = () => {
         </p>
         <div className="flex justify-left space-x-4">
           <button className="border border-white py-2 px-6 text-sm uppercase tracking-widest text-white hover:bg-white hover:text-blue-900 transition duration-800 transform hover:scale-110 rounded">
-            Start a Project
+            <a href="https://github.com/Marvy247" target="_blank">
+              View My Projects
+            </a>
           </button>
           <button className="border border-white py-2 px-6 text-sm uppercase tracking-widest text-white hover:bg-white hover:text-blue-900 transition duration-800 transform hover:scale-110 rounded">
-            Contact Me
+            <a href="#" target="_blank">
+              Contact Me
+            </a>
           </button>
         </div>
       </main>

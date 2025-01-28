@@ -19,17 +19,19 @@ const Footer = () => {
       }`}
     >
       <a
-        href="#"
+        href="https://www.facebook.com/david.marvelous.984"
+        target="_blank"
         className="text-white transition-transform transform hover:scale-150"
         aria-label="Facebook"
       >
         <i className="fab fa-facebook-f"></i>
         <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
           <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0zm-3.15 12.5h-3.5v9h-4v-9h-2.5v-3.5h2.5v-2.5c0-3.5 1.5-5.5 5.5-5.5h3v3.5h-2c-.5 0-1 .5-1 1v2.5h3.5l-.5 3.5z" />
-        </svg>
+        </svg>{" "}
       </a>
       <a
-        href="#"
+        href="https://x.com/DavidMarvyy"
+        target="_blank"
         className="text-white transition-transform transform hover:scale-150"
         aria-label="Twitter"
       >
@@ -40,7 +42,8 @@ const Footer = () => {
       </a>
 
       <a
-        href="#"
+        href="mailto:marvellousdvd@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you."
+        target="_blank"
         className="text-white transition-transform transform hover:scale-150"
         aria-label="Behance"
       >

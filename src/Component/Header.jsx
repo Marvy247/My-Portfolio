@@ -4,7 +4,7 @@ const Header = () => {
   console.log("Header component is rendering"); // Added console log
   return (
     <header className="p-4 flex justify-between items-center sticky top-0">
-      <h1 className="text-white text-5xl font-bold transition-transform duration-500 hover:scale-110">
+      <h1 className="text-stone-300 text-6xl font-bold transition-transform duration-500 hover:scale-110">
         The Dude
       </h1>
       <nav className="ml-auto">
