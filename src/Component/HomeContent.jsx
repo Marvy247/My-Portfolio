@@ -1,9 +1,8 @@
 import React from "react";
 
 const HomeContent = () => {
-  console.log("HomeContent component is rendering"); // Added console log
   return (
-    <div className="relative z-0 mt-20 flex-grow flex items-center pl-60 p-2 text-left">
+    <div className="relative z-0 flex-grow flex items-center pl-36 text-left h-screen">
       <main>
         <p className="text-4xl uppercase tracking-widest text-gray-200 mb-16 animate-slideDown">
           Hello,

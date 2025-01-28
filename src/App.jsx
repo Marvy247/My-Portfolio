@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Component/Header";
 import Footer from "./Component/Footer"; // Importing Footer
 import HomeContent from "./Component/HomeContent";
+import About from "./Component/About";
 <script
   src="https://kit.fontawesome.com/95442de5cd.js"
   crossorigin="anonymous"
@@ -15,6 +16,7 @@ const App = () => {
     >
       <Header />
       <HomeContent />
+      <About />
       <Footer />
     </div>
   );
