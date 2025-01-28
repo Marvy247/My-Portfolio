@@ -1,5 +1,8 @@
 @tailwind base;
 
+/* Original content here */
+@tailwind base;
+
 .fade-out {
   animation: fadeOut 6s forwards;
 }
