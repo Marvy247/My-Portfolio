@@ -1,4 +1,18 @@
 @tailwind base;
+
+.fade-out {
+  animation: fadeOut 6s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.9; /* Changed to keep icons visible */
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -25,14 +39,30 @@
   }
 }
 
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 header {
-  transition: background-color 0.3s ease;
+  transition: background-color 0.8s ease;
 }
 
-header:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+a {
+  transition: transform 0.9s ease; /* Smooth transition for scaling and color change */
 }
