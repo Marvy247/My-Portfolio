@@ -1,6 +1,8 @@
 import React from "react";
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <section
       id="contact"
@@ -79,33 +81,9 @@ const Contact = () => {
           </button>
         </form>
 
-        {/* Social Links */}
+        {/* Copyright Message */}
         <div className="mt-8">
-          <h3 className="text-2xl font-bold mb-4">Follow Me</h3>
-          <div className="flex justify-center gap-6">
-            <a
-              href="https://github.com/Marvy247"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-400 hover:text-teal-600 transition duration-300"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/your-linkedin-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-400 hover:text-teal-600 transition duration-300"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:marvellousdvd@gmail.com"
-              className="text-teal-400 hover:text-teal-600 transition duration-300"
-            >
-              Email
-            </a>
-          </div>
+          <p className="text-lg">&copy; {currentYear} All rights reserved.</p>
         </div>
       </div>
     </section>
