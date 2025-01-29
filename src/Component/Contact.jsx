@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
       {/* Overlay for opacity */}
       <div className="max-w-6xl mx-auto text-center relative z-10">
-        <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
+        <h2 className="text-5xl font-bold mb-6">Contact Me</h2>
         <p className="text-lg leading-8 mb-8">
           Have a question or want to work together? Feel free to reach out! I'm
           always open to exciting new projects and opportunities.
@@ -18,8 +18,9 @@ const Contact = () => {
 
         {/* Contact Form */}
         <form
-          action="https://formspree.io/f/your-form-id" // Replace 'your-form-id' with your Formspree endpoint
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSczF15eFd_wexLMOzz9WAsJDtx9Ptnc9-LJgjxBCk4TUpzN6A/formResponse"
           method="POST"
+          target="_blank"
           className="max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg"
         >
           <div className="mb-4">
@@ -32,7 +33,7 @@ const Contact = () => {
             <input
               type="text"
               id="name"
-              name="name"
+              name="entry.1530968004"
               placeholder="Enter your name"
               className="w-full px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
               required
@@ -48,7 +49,7 @@ const Contact = () => {
             <input
               type="email"
               id="email"
-              name="email"
+              name="entry.2113749448"
               placeholder="Enter your email"
               className="w-full px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
               required
@@ -63,7 +64,7 @@ const Contact = () => {
             </label>
             <textarea
               id="message"
-              name="message"
+              name="entry.854561098"
               rows="5"
               placeholder="Enter your message"
               className="w-full px-4 py-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400"
