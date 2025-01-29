@@ -2,8 +2,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-gray-900 text-white py-12 px-6">
-      <div className="max-w-6xl mx-auto text-center">
+    <section
+      id="contact"
+      className="bg-cover bg-center text-white py-12 px-6 relative"
+      style={{ backgroundImage: "url('/two.jpg')" }} // Set the background image
+    >
+      <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+      {/* Overlay for opacity */}
+      <div className="max-w-6xl mx-auto text-center relative z-10">
         <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
         <p className="text-lg leading-8 mb-8">
           Have a question or want to work together? Feel free to reach out! I'm

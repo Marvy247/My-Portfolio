@@ -34,7 +34,7 @@ const About = () => {
       style={{ backgroundImage: "url('/three.jpg')" }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="max-w-6xl mx-auto text-center relative z-10">
+      <div className="max-w-6xl mx-auto text-center relative z-10 animate-slideUp">
         <h2 className="text-6xl p-16 font-bold mb-6 text-gray-200">About Me</h2>
         <p className="text-2xl leading-9 mb-12 text-gray-200">
           Hello! I'm a passionate web developer with expertise in modern web
