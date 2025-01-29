@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div
       className="relative min-h-screen flex flex-col text-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/one.jpg')" }}
+      style={{ backgroundImage: "url('/one.jpg')", backgroundSize: "cover" }}
     >
       <Header />
       <HomeContent />

@@ -13,7 +13,7 @@
 }
 
 .animate-slideUp {
-  animation: slideUp 25s ease-out forwards;
+  animation: slideUp 20s ease-out forwards;
 }
 
 /* Original content here */
@@ -111,4 +111,30 @@ header a:hover {
     #9333ea
   ); /* Example gradient */
   color: white; /* Ensure text color remains white */
+}
+
+/* Styles for the hamburger icon */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+nav {
+  display: none; /* Hide navigation by default */
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex; /* Show navigation on larger screens */
+  }
+}
+
+.hidden {
+  display: none; /* Class to hide elements */
+}
+
+.block {
+  display: block; /* Class to show elements */
 }
